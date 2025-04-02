@@ -316,8 +316,16 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex items-center space-x-2 mb-4 md:mb-0">
-              <Sparkles className="h-6 w-6 text-primary" />
-              <span className="font-bold text-xl">BuildAI</span>
+          
+                <Image
+                  alt="digi-logo"
+                  src="/digi-logo.png"
+                  width={20}
+                  height={20}
+                />
+                {/* <Sparkles className="h-6 w-6 text-primary" /> */}
+                <span className="font-bold text-xl">DigiZap</span>
+         
             </div>
             <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8">
               <Link href="#" className="text-sm hover:text-primary">

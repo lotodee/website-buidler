@@ -7,9 +7,9 @@ import { Toaster } from "@/components/toaster"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "BuildAI - AI-Powered Website Builder",
+  title: "DigiZap-BuildAI - AI-Powered Website Builder",
   description: "Create stunning websites with the power of AI",
-    generator: 'v0.dev'
+  
 }
 
 export default function RootLayout({
